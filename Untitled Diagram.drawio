@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2021-09-10T02:11:59.495Z" agent="5.0 (Windows)" etag="3-MYs6_Fl7E2-XJ8A3ae" version="15.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-10T02:12:38.635Z" agent="5.0 (Windows)" etag="OSv9nP8twevVs90XWhhn" version="15.1.2" type="github">
   <diagram id="PSfZSLlQDoP36kE74XVU" name="Page-1">
     <mxGraphModel dx="2889" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="QF4vBQPAdgZfjIRWzR2f-1" value="&lt;div&gt;&amp;nbsp; SERVER&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="QF4vBQPAdgZfjIRWzR2f-1" value="&lt;div&gt;&amp;nbsp; SERVER&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-460" y="250" width="263" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QF4vBQPAdgZfjIRWzR2f-2" value="CLIENT" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="QF4vBQPAdgZfjIRWzR2f-2" value="CLIENT" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
           <mxGeometry x="730" y="250" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QF4vBQPAdgZfjIRWzR2f-3" value="&lt;div style=&quot;font-size: 25px;&quot;&gt;音视频编解码传输流程图（RTSP传输）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;fontSize=25;fontStyle=1;horizontal=1;verticalAlign=middle;" vertex="1" parent="1">
