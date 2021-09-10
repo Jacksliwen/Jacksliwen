@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-09T10:03:11.764Z" agent="5.0 (Windows)" etag="wEHiw6KDnLYRR-r35oBJ" version="15.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-10T02:08:50.301Z" agent="5.0 (Windows)" etag="eoqtAhEkO7Wy_7SkHD-E" version="15.1.2" type="github">
   <diagram id="PSfZSLlQDoP36kE74XVU" name="Page-1">
     <mxGraphModel dx="2889" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,11 +10,11 @@
         <mxCell id="QF4vBQPAdgZfjIRWzR2f-2" value="CLIENT" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="730" y="250" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QF4vBQPAdgZfjIRWzR2f-3" value="&lt;div&gt;音视频编解码传输流程图（RTSP传输）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="60" y="110" width="410" height="60" as="geometry" />
+        <mxCell id="QF4vBQPAdgZfjIRWzR2f-3" value="&lt;div style=&quot;font-size: 25px;&quot;&gt;音视频编解码传输流程图（RTSP传输）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;fontSize=25;fontStyle=1;horizontal=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="36" y="110" width="490" height="140" as="geometry" />
         </mxCell>
         <mxCell id="QF4vBQPAdgZfjIRWzR2f-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="-610" y="335" width="660" height="250" as="geometry" />
+          <mxGeometry x="-610" y="335" width="670" height="365" as="geometry" />
         </mxCell>
         <mxCell id="QF4vBQPAdgZfjIRWzR2f-25" style="edgeStyle=none;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="QF4vBQPAdgZfjIRWzR2f-5" target="QF4vBQPAdgZfjIRWzR2f-21">
           <mxGeometry relative="1" as="geometry" />
@@ -50,7 +50,7 @@
           <mxGeometry x="-390" y="495" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QF4vBQPAdgZfjIRWzR2f-27" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;PS/TS流&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=3;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="425" width="200" height="95" as="geometry" />
+          <mxGeometry x="-150" y="422.5" width="200" height="115" as="geometry" />
         </mxCell>
         <mxCell id="QF4vBQPAdgZfjIRWzR2f-29" value="&lt;div&gt;原始数据&lt;/div&gt;&lt;div&gt;(很大)&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-540" y="357.5" width="80" height="27.5" as="geometry" />
@@ -68,13 +68,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QF4vBQPAdgZfjIRWzR2f-35" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="520" y="335" width="660" height="250" as="geometry" />
+          <mxGeometry x="480" y="335" width="700" height="365" as="geometry" />
         </mxCell>
         <mxCell id="QF4vBQPAdgZfjIRWzR2f-36" value="&lt;div&gt;RTSP交互协商&lt;/div&gt;&lt;div&gt;RTP的数据端口（奇数端口）&lt;/div&gt;&lt;div&gt;RTCP数据控制端口（偶数端口）&lt;/div&gt;&lt;div&gt;一般为连续的两个端口&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="131" y="335" width="300" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="QF4vBQPAdgZfjIRWzR2f-38" value="&lt;div&gt;LIVE 555&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;不支持 MP4 等格式，需要开发附加FFMPEG&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;strokeWidth=3;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="585" width="930" height="85" as="geometry" />
+        <mxCell id="QF4vBQPAdgZfjIRWzR2f-38" value="&lt;div&gt;LIVE 555&lt;/div&gt;&lt;div&gt;不支持 MP4 等格式，需要开发附加FFMPEG&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;strokeWidth=3;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="585" width="930" height="55" as="geometry" />
         </mxCell>
         <mxCell id="QF4vBQPAdgZfjIRWzR2f-39" value="&lt;div&gt;将RTP包还原为&lt;/div&gt;&lt;div&gt;编码的图像数据(H264/H265等)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;编码的音频数据(AAC等)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=3;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="530" y="395" width="230" height="155" as="geometry" />
@@ -83,13 +83,13 @@
           <mxGeometry x="600" y="355" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QF4vBQPAdgZfjIRWzR2f-42" value="每个RTP包携带一个或者多个帧数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;strokeWidth=3;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="100" y="485" width="360" height="60" as="geometry" />
+          <mxGeometry x="100" y="450" width="360" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QF4vBQPAdgZfjIRWzR2f-44" value="解码" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="845" y="355" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QF4vBQPAdgZfjIRWzR2f-45" value="FFMPEG" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;strokeWidth=3;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="790" y="585" width="170" height="60" as="geometry" />
+          <mxGeometry x="790" y="585" width="220" height="55" as="geometry" />
         </mxCell>
         <mxCell id="QF4vBQPAdgZfjIRWzR2f-46" value="&lt;div&gt;图像数据H264解码为YUV数据&lt;/div&gt;&lt;div&gt;音频数据AAC解码为WWC原始数据&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=3;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="780" y="390" width="230" height="155" as="geometry" />
