@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-10T03:12:33.655Z" agent="5.0 (Windows)" etag="xbjnTlQfw098fBCl9ITC" version="15.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-10T03:13:47.887Z" agent="5.0 (Windows)" etag="UN9HkxsL6dXOurG53Ftn" version="15.1.2" type="github">
   <diagram id="7hwt8iUyQ6iaTFeVRyE0" name="Page-1">
     <mxGraphModel dx="2889" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,8 +70,8 @@
         <mxCell id="JGfc-qZrsNJnJbXg5H5I-23" value="&lt;div&gt;LIVE 555&lt;/div&gt;&lt;div&gt;不支持 MP4 等格式，需要开发附加FFMPEG&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;strokeWidth=3;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-170" y="585" width="930" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="JGfc-qZrsNJnJbXg5H5I-24" value="&lt;div align=&quot;center&quot;&gt;将RTP包还原为封装格式数据&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;图像数据(H264/H265等) + 编码的音频数据(AAC等)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=3;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="500" y="395" width="260" height="155" as="geometry" />
+        <mxCell id="JGfc-qZrsNJnJbXg5H5I-24" value="&lt;div align=&quot;center&quot;&gt;将RTP包还原为封装格式数据FLV/TS&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;（图像数据(H264/H265等) + 编码的音频数据(AAC等)）&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=3;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="490" y="395" width="270" height="155" as="geometry" />
         </mxCell>
         <mxCell id="JGfc-qZrsNJnJbXg5H5I-25" value="解包" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="590" y="355" width="90" height="25" as="geometry" />
