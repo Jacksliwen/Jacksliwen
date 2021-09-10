@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-10T02:42:21.025Z" agent="5.0 (Windows)" etag="X_GL50dSoMXcLRb-gLbp" version="15.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-10T02:52:44.719Z" agent="5.0 (Windows)" etag="iBlbYuQe7PNwDcM9g9Uf" version="15.1.2" type="github">
   <diagram id="7hwt8iUyQ6iaTFeVRyE0" name="Page-1">
     <mxGraphModel dx="2889" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -68,19 +68,16 @@
           <mxGeometry x="480" y="335" width="700" height="365" as="geometry" />
         </mxCell>
         <mxCell id="JGfc-qZrsNJnJbXg5H5I-22" value="&lt;div&gt;RTSP交互协商&lt;/div&gt;&lt;div&gt;RTP的数据端口（奇数端口）&lt;/div&gt;&lt;div&gt;RTCP数据控制端口（偶数端口）&lt;/div&gt;&lt;div&gt;一般为连续的两个端口&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="120" y="335" width="300" height="105" as="geometry" />
+          <mxGeometry x="113.5" y="440" width="300" height="105" as="geometry" />
         </mxCell>
         <mxCell id="JGfc-qZrsNJnJbXg5H5I-23" value="&lt;div&gt;LIVE 555&lt;/div&gt;&lt;div&gt;不支持 MP4 等格式，需要开发附加FFMPEG&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;strokeWidth=3;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-170" y="585" width="930" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="JGfc-qZrsNJnJbXg5H5I-24" value="&lt;div&gt;将RTP包还原为&lt;/div&gt;&lt;div&gt;编码的图像数据(H264/H265等)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;编码的音频数据(AAC等)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=3;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="JGfc-qZrsNJnJbXg5H5I-24" value="&lt;div&gt;将RTP包还原为封装格式数据&lt;/div&gt;&lt;div&gt;编码的图像数据(H264/H265等)&lt;/div&gt;&lt;div&gt;编码的音频数据(AAC等)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=3;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="500" y="395" width="260" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="JGfc-qZrsNJnJbXg5H5I-25" value="解包" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="JGfc-qZrsNJnJbXg5H5I-25" value="&lt;div&gt;解封装&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="590" y="355" width="90" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="JGfc-qZrsNJnJbXg5H5I-26" value="每个RTP包携带一个或者多个帧数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;strokeWidth=3;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="90" y="510" width="360" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JGfc-qZrsNJnJbXg5H5I-27" value="解码" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="845" y="355" width="80" height="20" as="geometry" />
@@ -97,8 +94,8 @@
         <mxCell id="JGfc-qZrsNJnJbXg5H5I-31" style="edgeStyle=none;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="JGfc-qZrsNJnJbXg5H5I-30" target="JGfc-qZrsNJnJbXg5H5I-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JGfc-qZrsNJnJbXg5H5I-32" value="&lt;div&gt;后续处理&lt;/div&gt;&lt;div&gt;格式转换等&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;strokeWidth=3;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="390" width="120" height="160" as="geometry" />
+        <mxCell id="JGfc-qZrsNJnJbXg5H5I-32" value="&lt;div&gt;后续处理&lt;/div&gt;&lt;div&gt;播放或格式转换等&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;strokeWidth=3;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="390" width="150" height="160" as="geometry" />
         </mxCell>
         <mxCell id="JGfc-qZrsNJnJbXg5H5I-33" value="&lt;div align=&quot;left&quot;&gt;PCM格式：用一个8bit或者16bit的数值来描述一个样本Pulse Code Modulation)也被称为脉冲编码调制&lt;/div&gt;&lt;div align=&quot;left&quot;&gt; YUV格式：用亮度信息（Y）与色彩信息（UV）来描述一个像素点&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;RGB格式：用红绿蓝来描述一个像素点&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=19;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-725" y="720" width="870" height="90" as="geometry" />
@@ -111,6 +108,9 @@
         </mxCell>
         <mxCell id="JGfc-qZrsNJnJbXg5H5I-38" value="封装格式" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=32.71;dy=13;boundedLbl=1;rounded=1;shadow=0;sketch=1;fontSize=20;align=center;verticalAlign=middle;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
           <mxGeometry x="-360.71" y="830" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JGfc-qZrsNJnJbXg5H5I-39" value="打包传输RTP(UDP/TCP)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;strokeWidth=3;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="138.5" y="375" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
