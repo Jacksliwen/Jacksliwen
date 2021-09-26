@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-26T09:21:04.170Z" agent="5.0 (Windows)" etag="14NSn69VQdEOeUNLtyX1" version="15.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-26T09:24:13.315Z" agent="5.0 (Windows)" etag="J0Ocerze5CZ3fgpBaO_Q" version="15.1.4" type="github">
   <diagram id="msuw9hYGAmnUWYRCktC_" name="Page-1">
     <mxGraphModel dx="2249" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,8 +19,26 @@
         <mxCell id="NipPHCl-mKM_xc_7-Nwc-9" value="&lt;div&gt;InputMoudel&lt;/div&gt;&lt;div&gt;(&quot;time_stamp_input&quot;)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-130" y="350" width="160" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=19;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NipPHCl-mKM_xc_7-Nwc-11" target="NipPHCl-mKM_xc_7-Nwc-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=19;" edge="1" parent="1" source="NipPHCl-mKM_xc_7-Nwc-11" target="NipPHCl-mKM_xc_7-Nwc-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=19;" edge="1" parent="1" source="NipPHCl-mKM_xc_7-Nwc-11" target="NipPHCl-mKM_xc_7-Nwc-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=19;" edge="1" parent="1" source="NipPHCl-mKM_xc_7-Nwc-11" target="NipPHCl-mKM_xc_7-Nwc-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=19;" edge="1" parent="1" source="NipPHCl-mKM_xc_7-Nwc-11" target="NipPHCl-mKM_xc_7-Nwc-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=19;" edge="1" parent="1" source="NipPHCl-mKM_xc_7-Nwc-11" target="NipPHCl-mKM_xc_7-Nwc-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NipPHCl-mKM_xc_7-Nwc-11" value="&lt;div&gt;DCVPredictModule 0 &lt;br&gt;&lt;/div&gt;&lt;div&gt;(&quot;time_stamp_input&quot;)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="100" y="430" width="160" height="40" as="geometry" />
+          <mxGeometry x="60" y="430" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NipPHCl-mKM_xc_7-Nwc-12" value="&lt;div&gt;DCVPredictModule 0 &lt;br&gt;&lt;/div&gt;&lt;div&gt;(&quot;time_stamp_input&quot;)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-140" y="750" width="160" height="40" as="geometry" />
@@ -28,23 +46,26 @@
         <mxCell id="NipPHCl-mKM_xc_7-Nwc-13" value="&lt;div&gt;DCVPredictModule 0 &lt;br&gt;&lt;/div&gt;&lt;div&gt;(&quot;time_stamp_input&quot;)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="50" y="750" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NipPHCl-mKM_xc_7-Nwc-25" value="&lt;div&gt;BBoxFilterModule&lt;/div&gt;&lt;div&gt;(&quot;person&quot;)&lt;/div&gt;&lt;div&gt;人体框&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-25" value="&lt;div&gt;BBoxFilterModule 2&lt;br&gt;&lt;/div&gt;&lt;div&gt;(&quot;person&quot;)&lt;/div&gt;&lt;div&gt;人体框&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="300" y="289" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NipPHCl-mKM_xc_7-Nwc-26" value="&lt;div&gt;BBoxFilterModule&lt;/div&gt;&lt;div&gt;(&quot;face&quot;)&lt;/div&gt;&lt;div&gt;人脸框&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-26" value="&lt;div&gt;BBoxFilterModule 0&lt;br&gt;&lt;/div&gt;&lt;div&gt;(&quot;face&quot;)&lt;/div&gt;&lt;div&gt;人脸框&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="300" y="223" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NipPHCl-mKM_xc_7-Nwc-27" value="&lt;div&gt;BBoxFilterModule&lt;/div&gt;&lt;div&gt;(&quot;motor_vehicle&quot;)&lt;/div&gt;&lt;div&gt;机动车体框&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-27" value="&lt;div&gt;BBoxFilterModule 0&lt;br&gt;&lt;/div&gt;&lt;div&gt;(&quot;motor_vehicle&quot;)&lt;/div&gt;&lt;div&gt;机动车体框&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="300" y="350" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NipPHCl-mKM_xc_7-Nwc-28" value="&lt;div&gt;BBoxFilterModule&lt;/div&gt;&lt;div&gt;(&quot;non_motor_vehicle&quot;)&lt;/div&gt;&lt;div&gt;非机动车框&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-28" value="&lt;div&gt;BBoxFilterModule 0&lt;/div&gt;&lt;div&gt;(&quot;non_motor_vehicle&quot;)&lt;/div&gt;&lt;div&gt;非机动车框&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="301" y="535" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NipPHCl-mKM_xc_7-Nwc-29" value="&lt;div&gt;BBoxFilterModule&lt;/div&gt;&lt;div&gt;(&quot;front_windows_box&quot;)&lt;/div&gt;&lt;div&gt;车前窗框&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-29" value="&lt;div&gt;BBoxFilterModule 0&lt;/div&gt;&lt;div&gt;(&quot;front_windows_box&quot;)&lt;/div&gt;&lt;div&gt;车前窗框&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="300" y="475" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NipPHCl-mKM_xc_7-Nwc-30" value="&lt;div&gt;BBoxFilterModule&lt;/div&gt;&lt;div&gt;(&quot;plate_vehicle&quot;)&lt;/div&gt;&lt;div&gt;车牌框&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-30" value="&lt;div&gt;BBoxFilterModule 0&lt;/div&gt;&lt;div&gt;(&quot;plate_vehicle&quot;)&lt;/div&gt;&lt;div&gt;车牌框&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="300" y="410" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-31" value="&lt;div&gt;0 过滤框的得分&lt;/div&gt;&lt;div&gt;2 人体过滤&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="301" y="120" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
