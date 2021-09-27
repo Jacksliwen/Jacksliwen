@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T07:19:56.894Z" agent="5.0 (Windows)" etag="xdMY07XLnN6BtJ2ulFiy" version="15.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-27T07:21:23.525Z" agent="5.0 (Windows)" etag="XRqY2WerAZzK_rzVrl0z" version="15.1.4" type="github">
   <diagram id="msuw9hYGAmnUWYRCktC_" name="Page-1">
     <mxGraphModel dx="2889" dy="3410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -311,9 +311,6 @@
         </mxCell>
         <mxCell id="NipPHCl-mKM_xc_7-Nwc-164" value="&lt;div&gt;InputMoudel&lt;/div&gt;&lt;div&gt;(&quot;time_stamp_input&quot;)&lt;/div&gt;&lt;div&gt;图片的时间戳&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="840" y="860" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="NipPHCl-mKM_xc_7-Nwc-165" value="&lt;div&gt;InputMoudel&lt;/div&gt;&lt;div&gt;(&quot;image_input&quot;)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="500" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NipPHCl-mKM_xc_7-Nwc-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="NipPHCl-mKM_xc_7-Nwc-166" target="NipPHCl-mKM_xc_7-Nwc-159">
           <mxGeometry relative="1" as="geometry" />
