@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T07:18:56.563Z" agent="5.0 (Windows)" etag="gg055iwPFA0Sa8pE8mnC" version="15.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-27T07:19:56.894Z" agent="5.0 (Windows)" etag="xdMY07XLnN6BtJ2ulFiy" version="15.1.4" type="github">
   <diagram id="msuw9hYGAmnUWYRCktC_" name="Page-1">
     <mxGraphModel dx="2889" dy="3410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -274,7 +274,7 @@
         <mxCell id="NipPHCl-mKM_xc_7-Nwc-158" value="做机动车 车牌 车前窗框融合" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="800" y="580" width="260" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NipPHCl-mKM_xc_7-Nwc-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="NipPHCl-mKM_xc_7-Nwc-159" target="NipPHCl-mKM_xc_7-Nwc-172">
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;startArrow=none;" edge="1" parent="1" source="NipPHCl-mKM_xc_7-Nwc-196" target="NipPHCl-mKM_xc_7-Nwc-172">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NipPHCl-mKM_xc_7-Nwc-159" value="&lt;div&gt;MotorSnapStrategyModule 0&lt;br&gt;&lt;/div&gt;&lt;div&gt;(&quot;vehicle&quot;)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -336,7 +336,7 @@
         <mxCell id="NipPHCl-mKM_xc_7-Nwc-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="NipPHCl-mKM_xc_7-Nwc-181" target="NipPHCl-mKM_xc_7-Nwc-172">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NipPHCl-mKM_xc_7-Nwc-181" value="&lt;div&gt;NonMotorSnapStrategyModule 0&lt;br&gt;&lt;/div&gt;&lt;div&gt;(&quot;vehicle&quot;)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-181" value="&lt;div&gt;NonMotorSnapStrategyModule 0&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;(&quot;non-vehicle&quot;)&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1280" y="1090" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NipPHCl-mKM_xc_7-Nwc-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.077;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="NipPHCl-mKM_xc_7-Nwc-182" target="NipPHCl-mKM_xc_7-Nwc-181">
@@ -365,6 +365,21 @@
         </mxCell>
         <mxCell id="NipPHCl-mKM_xc_7-Nwc-194" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: &amp;quot;consolas&amp;quot;, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;run_task_&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;&amp;nbsp;=&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;workflow_&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;Run&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;({&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;std&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;make_pair&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(snapshot_result_module_,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #b5cea8&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&amp;nbsp;},&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;output_result_&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;get&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;());&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="20" y="1656" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-195" value="非机动车" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="600" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-196" value="机动车" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="500" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-197" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;endArrow=none;" edge="1" parent="1" source="NipPHCl-mKM_xc_7-Nwc-159" target="NipPHCl-mKM_xc_7-Nwc-196">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1385" y="745" as="sourcePoint" />
+            <mxPoint x="1780" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-198" value="人脸+人体" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="440" width="110" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
