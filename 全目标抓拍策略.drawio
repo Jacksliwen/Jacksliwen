@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T04:17:12.745Z" agent="5.0 (Windows)" etag="lR938C7lrl_7N9LKhP9x" version="15.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-27T06:30:12.216Z" agent="5.0 (Windows)" etag="iGeKX3whWgF8PatUpAa1" version="15.1.4" type="github">
   <diagram id="msuw9hYGAmnUWYRCktC_" name="Page-1">
     <mxGraphModel dx="2889" dy="3410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -147,11 +147,27 @@
         <mxCell id="NipPHCl-mKM_xc_7-Nwc-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="NipPHCl-mKM_xc_7-Nwc-102" target="NipPHCl-mKM_xc_7-Nwc-119">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="NipPHCl-mKM_xc_7-Nwc-102" target="NipPHCl-mKM_xc_7-Nwc-124">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1110" y="295" />
+              <mxPoint x="1110" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NipPHCl-mKM_xc_7-Nwc-102" value="&lt;div&gt;BBoxFilterModule 3&lt;br&gt;&lt;/div&gt;&lt;div&gt;(&quot;person&quot;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="900" y="270" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NipPHCl-mKM_xc_7-Nwc-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="NipPHCl-mKM_xc_7-Nwc-103" target="NipPHCl-mKM_xc_7-Nwc-117">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="NipPHCl-mKM_xc_7-Nwc-103" target="NipPHCl-mKM_xc_7-Nwc-124">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1110" y="-15" />
+              <mxPoint x="1110" y="113" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="NipPHCl-mKM_xc_7-Nwc-103" value="&lt;div&gt;BBoxFilterModule 1&lt;br&gt;&lt;/div&gt;&lt;div&gt;(&quot;face&quot;)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="890" y="-40" width="160" height="50" as="geometry" />
@@ -174,17 +190,41 @@
         <mxCell id="NipPHCl-mKM_xc_7-Nwc-115" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-weight: normal ; font-size: 16px ; line-height: 22px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;生成PersonInfoMessage&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="880.5" y="320" width="199" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.544;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;" edge="1" parent="1" source="NipPHCl-mKM_xc_7-Nwc-117" target="NipPHCl-mKM_xc_7-Nwc-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NipPHCl-mKM_xc_7-Nwc-117" value="&lt;div&gt;FaceSnapStrategyModule1&lt;br&gt;&lt;/div&gt;&lt;div&gt;(&quot;face&quot;)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1170" y="-40" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="NipPHCl-mKM_xc_7-Nwc-119" target="NipPHCl-mKM_xc_7-Nwc-124">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NipPHCl-mKM_xc_7-Nwc-119" value="&lt;div&gt;PersonSnapStrategyModule 1&lt;br&gt;&lt;/div&gt;&lt;div&gt;(&quot;person&quot;)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1160" y="270" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NipPHCl-mKM_xc_7-Nwc-120" value="根据框抠图，合并抓拍信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="1125" y="-110" width="260" height="70" as="geometry" />
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-120" value="根据框抠图，和一些抓拍策略合并抓拍信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="-100" width="260" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NipPHCl-mKM_xc_7-Nwc-123" value="根据框抠图，合并抓拍信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="1125" y="200" width="260" height="70" as="geometry" />
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-123" value="根据框抠图，和一些抓拍策略合并抓拍信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="210" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-124" value="&lt;div style=&quot;font-size: 14px&quot;&gt;SnapMergeModule 1&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;(&quot;face|person&quot;)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="100" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-129" value="融合人脸人体抓拍信息，组成track_id 对" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="1394" y="30" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.144;entryY=1.04;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="NipPHCl-mKM_xc_7-Nwc-136" target="NipPHCl-mKM_xc_7-Nwc-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-136" value="&lt;div&gt;InputMoudel&lt;/div&gt;&lt;div&gt;(&quot;img_info_input&quot;)&lt;/div&gt;&lt;div&gt;图片大小信息&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1174.5" y="370" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="NipPHCl-mKM_xc_7-Nwc-137" target="NipPHCl-mKM_xc_7-Nwc-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-137" value="&lt;div&gt;InputMoudel&lt;/div&gt;&lt;div&gt;(&quot;time_stamp_input&quot;)&lt;/div&gt;&lt;div&gt;图片的时间戳&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1175.5" y="430" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
