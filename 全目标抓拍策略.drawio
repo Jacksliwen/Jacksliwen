@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-28T06:45:59.043Z" agent="5.0 (Windows)" etag="XIQd9KFU4aVYmnqpA9xE" version="15.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-28T07:32:52.570Z" agent="5.0 (Windows)" etag="qNcXdVSMsYS0udBkcMw6" version="15.1.4" type="github">
   <diagram id="msuw9hYGAmnUWYRCktC_" name="Page-1">
     <mxGraphModel dx="2249" dy="1936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -169,6 +169,14 @@
             <Array as="points">
               <mxPoint x="1110" y="295" />
               <mxPoint x="1110" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.149;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=4;strokeWidth=1;" edge="1" parent="1" source="NipPHCl-mKM_xc_7-Nwc-102" target="NipPHCl-mKM_xc_7-Nwc-117">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="295" />
+              <mxPoint x="1080" y="-32" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -441,6 +449,9 @@
         </mxCell>
         <mxCell id="NipPHCl-mKM_xc_7-Nwc-224" value="&lt;div&gt;InputMoudel&lt;/div&gt;&lt;div&gt;(&quot;image_input&quot;)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1010" y="-230" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-235" value="track_id 人体框列表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="790" y="240" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
