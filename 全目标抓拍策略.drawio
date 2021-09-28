@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-28T06:25:46.446Z" agent="5.0 (Windows)" etag="cXNOFvu45qrU5JulNvd5" version="15.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-28T06:27:04.114Z" agent="5.0 (Windows)" etag="pV6jKTF7_CpoF36X9-IL" version="15.1.4" type="github">
   <diagram id="msuw9hYGAmnUWYRCktC_" name="Page-1">
     <mxGraphModel dx="3253" dy="2477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -416,8 +416,8 @@
         <mxCell id="NipPHCl-mKM_xc_7-Nwc-218" value="串联module输入输出" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-640" y="-800" width="250" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="NipPHCl-mKM_xc_7-Nwc-221" value="DcvPredictModule 的FORWARD_DECLARE 0 的输出作为 BBoxFilterModule的FORWARD_DECLARE 0&amp;nbsp; 的inputs[1] 的值" style="text;html=1;strokeColor=#B09500;fillColor=#e3c800;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-600" y="-465" width="850" height="120" as="geometry" />
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-221" value="DcvPredictModule 的&lt;span style=&quot;background-color: rgb(255 , 0 , 128) ; font-size: 27px&quot;&gt;&lt;b style=&quot;font-size: 27px&quot;&gt;FORWARD_DECLARE 0&lt;/b&gt;&lt;/span&gt; 的输出作为 BBoxFilterModule的&lt;span style=&quot;background-color: rgb(255 , 0 , 128) ; font-size: 27px&quot;&gt;FORWARD_DECLARE 0&lt;/span&gt;&amp;nbsp; 的&lt;span style=&quot;background-color: rgb(204 , 0 , 102) ; font-size: 27px&quot;&gt;Inputs[1]&lt;/span&gt; 的值" style="text;html=1;strokeColor=#B09500;fillColor=#e3c800;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-605" y="-500" width="850" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
