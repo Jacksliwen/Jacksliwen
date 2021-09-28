@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-28T06:27:04.114Z" agent="5.0 (Windows)" etag="pV6jKTF7_CpoF36X9-IL" version="15.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-28T06:45:59.043Z" agent="5.0 (Windows)" etag="XIQd9KFU4aVYmnqpA9xE" version="15.1.4" type="github">
   <diagram id="msuw9hYGAmnUWYRCktC_" name="Page-1">
-    <mxGraphModel dx="3253" dy="2477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -220,7 +220,7 @@
           <mxGeometry x="1160" y="270" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NipPHCl-mKM_xc_7-Nwc-120" value="根据框抠图，和一些抓拍策略合并抓拍信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="1125" y="-100" width="260" height="70" as="geometry" />
+          <mxGeometry x="1145" width="260" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NipPHCl-mKM_xc_7-Nwc-123" value="根据框抠图，和一些抓拍策略合并抓拍信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="1120" y="210" width="260" height="70" as="geometry" />
@@ -418,6 +418,29 @@
         </mxCell>
         <mxCell id="NipPHCl-mKM_xc_7-Nwc-221" value="DcvPredictModule 的&lt;span style=&quot;background-color: rgb(255 , 0 , 128) ; font-size: 27px&quot;&gt;&lt;b style=&quot;font-size: 27px&quot;&gt;FORWARD_DECLARE 0&lt;/b&gt;&lt;/span&gt; 的输出作为 BBoxFilterModule的&lt;span style=&quot;background-color: rgb(255 , 0 , 128) ; font-size: 27px&quot;&gt;FORWARD_DECLARE 0&lt;/span&gt;&amp;nbsp; 的&lt;span style=&quot;background-color: rgb(204 , 0 , 102) ; font-size: 27px&quot;&gt;Inputs[1]&lt;/span&gt; 的值" style="text;html=1;strokeColor=#B09500;fillColor=#e3c800;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-605" y="-500" width="850" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-234" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=4;strokeWidth=1;" edge="1" parent="1" source="NipPHCl-mKM_xc_7-Nwc-222" target="NipPHCl-mKM_xc_7-Nwc-117">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1424" y="-110" />
+              <mxPoint x="1290" y="-110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-222" value="&lt;div&gt;InputMoudel&lt;/div&gt;&lt;div&gt;(&quot;img_info_input&quot;)&lt;/div&gt;&lt;div&gt;图片大小信息&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="-230" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-233" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=4;strokeWidth=1;" edge="1" parent="1" source="NipPHCl-mKM_xc_7-Nwc-223" target="NipPHCl-mKM_xc_7-Nwc-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-223" value="&lt;div&gt;InputMoudel&lt;/div&gt;&lt;div&gt;(&quot;time_stamp_input&quot;)&lt;/div&gt;&lt;div&gt;图片的时间戳&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="-230" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=4;strokeWidth=1;" edge="1" parent="1" source="NipPHCl-mKM_xc_7-Nwc-224" target="NipPHCl-mKM_xc_7-Nwc-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NipPHCl-mKM_xc_7-Nwc-224" value="&lt;div&gt;InputMoudel&lt;/div&gt;&lt;div&gt;(&quot;image_input&quot;)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="-230" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
